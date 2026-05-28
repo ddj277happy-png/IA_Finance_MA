@@ -1,0 +1,15 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary research working files
+*.tmp
+*.bak
+~$*
+
+# Python/cache artifacts if analysis scripts are added later
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
