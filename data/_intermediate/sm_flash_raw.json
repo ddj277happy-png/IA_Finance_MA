@@ -1,0 +1,122 @@
+[
+  {
+    "credits_immobiliers_MDH": 219487,
+    "credits_habitat_MDH": 151389,
+    "credits_promoteurs_MDH": 65548,
+    "credits_equipement_MDH": 137067,
+    "credits_consommation_MDH": 39680,
+    "credits_treso_MDH": 178140,
+    "credits_divers_MDH": 92566,
+    "credits_souffrance_MDH": 35439,
+    "credits_bancaire_total_MDH": 25,
+    "credits_habitat_financement_participatif_MDH": null,
+    "date": "2013-01-01 00:00:00",
+    "source": "DERI_SM_JANVIER2013.pdf",
+    "type": "SM"
+  },
+  {
+    "credits_immobiliers_MDH": 236534,
+    "credits_habitat_MDH": 169340,
+    "credits_promoteurs_MDH": 63828,
+    "credits_equipement_MDH": 145394,
+    "credits_consommation_MDH": 44067,
+    "credits_treso_MDH": 31,
+    "credits_divers_MDH": 100200,
+    "credits_souffrance_MDH": 52101,
+    "credits_bancaire_total_MDH": 28,
+    "credits_habitat_financement_participatif_MDH": null,
+    "date": "2014-11-01 00:00:00",
+    "source": "DERI_SM_NOVEMBRE_2014.pdf",
+    "type": "SM"
+  },
+  {
+    "credits_immobiliers_MDH": null,
+    "credits_habitat_MDH": null,
+    "credits_promoteurs_MDH": null,
+    "credits_equipement_MDH": null,
+    "credits_consommation_MDH": null,
+    "credits_treso_MDH": null,
+    "credits_divers_MDH": null,
+    "credits_souffrance_MDH": null,
+    "credits_bancaire_total_MDH": null,
+    "credits_habitat_financement_participatif_MDH": null,
+    "date": "2024-03-01 00:00:00",
+    "source": "DSGD-MSM_Mars_2024_DV.pdf",
+    "type": "SM"
+  },
+  {
+    "credits_habitat_MMDH": 257700.0,
+    "credits_consommation_MMDH": 61800.0,
+    "murabaha_habitat_MMDH": null,
+    "credits_menages_total_MMDH": 399900.0,
+    "credit_bancaire_total_MMDH": 1000.0,
+    "date": "2026-04-01 00:00:00",
+    "source": "DSGD_Flash_crédits_dépôts_AVRIL_2026.pdf",
+    "type": "Flash"
+  },
+  {
+    "credits_habitat_MMDH": 244000.0,
+    "credits_consommation_MMDH": null,
+    "murabaha_habitat_MMDH": null,
+    "credits_menages_total_MMDH": 443600.0,
+    "credit_bancaire_total_MMDH": 1000.0,
+    "date": "2023-12-01 00:00:00",
+    "source": "DSGD_Flash_crédits_dépôts_déc_2023__.pdf",
+    "type": "Flash"
+  },
+  {
+    "credits_immobiliers_MDH": 298217,
+    "credits_habitat_MDH": 238012,
+    "credits_promoteurs_MDH": 6,
+    "credits_equipement_MDH": 175918,
+    "credits_consommation_MDH": 57718,
+    "credits_treso_MDH": 32,
+    "credits_divers_MDH": 142417,
+    "credits_souffrance_MDH": 89407,
+    "credits_bancaire_total_MDH": 29,
+    "credits_habitat_financement_participatif_MDH": 14161211,
+    "date": "2022-10-01 00:00:00",
+    "source": "DSGD_SM_octobre__2022.pdf",
+    "type": "SM"
+  },
+  {
+    "credits_habitat_MMDH": 239000.0,
+    "credits_consommation_MMDH": null,
+    "murabaha_habitat_MMDH": null,
+    "credits_menages_total_MMDH": 449400.0,
+    "credit_bancaire_total_MMDH": 1000.0,
+    "date": "2022-12-01 00:00:00",
+    "source": "Flash_cre_dits_de_po_ts_De_c_2022_VF_.pdf",
+    "type": "Flash"
+  },
+  {
+    "credits_habitat_MMDH": 248100.0,
+    "credits_consommation_MMDH": null,
+    "murabaha_habitat_MMDH": null,
+    "credits_menages_total_MMDH": 453600.0,
+    "credit_bancaire_total_MMDH": 1000.0,
+    "date": "2024-12-01 00:00:00",
+    "source": "Flash_crédits_dépôts_Decmbre_2024.pdf",
+    "type": "Flash"
+  },
+  {
+    "credits_habitat_MMDH": 256200.0,
+    "credits_consommation_MMDH": 61100.0,
+    "murabaha_habitat_MMDH": null,
+    "credits_menages_total_MMDH": 395600.0,
+    "credit_bancaire_total_MMDH": 1000.0,
+    "date": "2025-12-01 00:00:00",
+    "source": "Flash_crédits_dépôts_déc_2025.pdf",
+    "type": "Flash"
+  },
+  {
+    "credits_habitat_MMDH": 233100.0,
+    "credits_consommation_MMDH": null,
+    "murabaha_habitat_MMDH": null,
+    "credits_menages_total_MMDH": 366800.0,
+    "credit_bancaire_total_MMDH": 988200.0,
+    "date": "2021-12-01 00:00:00",
+    "source": "Flash_crédits_dépôts_Décembre_2021.pdf",
+    "type": "Flash"
+  }
+]

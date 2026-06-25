@@ -41,26 +41,29 @@ def parse_fr_date_from_filename(name: str):
     # remove accents
     s = (s.replace("é", "e").replace("è", "e").replace("ê", "e").replace("à", "a")
            .replace("ç", "c").replace("û", "u").replace("ù", "u").replace("ô", "o"))
-    # find month token
+    # Replace separators with spaces (so word boundaries work — _ is a word char in regex)
+    s_norm = re.sub(r"[_\-\.]+", " ", s)
+    # find month token (handle concatenated "Janvier2020" by also checking without space)
+    s_concat = re.sub(r"\s+", "", s_norm)
     month = None
     for k, v in FR_MONTHS.items():
         k2 = (k.replace("é", "e").replace("è", "e").replace("ê", "e").replace("à", "a")
                 .replace("ç", "c").replace("û", "u").replace("ù", "u").replace("ô", "o"))
-        if re.search(rf"\b{k2}\b", s) or re.search(rf"\b{k2}[-\.]\b", s):
+        if re.search(rf"\b{k2}\b", s_norm) or k2 in s_concat:
             month = v
             break
     # find 4-digit year
-    m = re.search(r"(20\d{2})", s)
+    m = re.search(r"(20\d{2})", s_norm)
     if not m:
         return None
     year = int(m.group(1))
     if month is None:
         # try numeric "MM YYYY" or "YYYY MM" patterns
-        m2 = re.search(r"[_\-\s](\d{2})[_\-\s]?(20\d{2})", s)
+        m2 = re.search(r"(?:^|\s)(\d{2})[\s\-]?(20\d{2})", s_norm)
         if m2:
             month = int(m2.group(1))
         else:
-            m3 = re.search(r"(20\d{2})[_\-\s](\d{2})\b", s)
+            m3 = re.search(r"(20\d{2})[\s\-](\d{2})(?:\s|$)", s_norm)
             if m3:
                 month = int(m3.group(2))
     if month is None or not (1 <= month <= 12):

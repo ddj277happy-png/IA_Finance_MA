@@ -1,0 +1,169 @@
+date,metric,rate_pct
+2021-10-01,Global,4.44
+2021-10-01,Crédits à l'équipement,4.56
+2021-10-01,Crédits immobiliers,4.82
+2021-10-01,Crédits à la consommation,6.47
+2021-10-01,Particuliers,5.16
+2021-10-01,Entreprises non financières,4.26
+2021-10-01,Entreprises non financières privées,4.3
+2021-10-01,TPME,4.88
+2021-10-01,GE,4.01
+2022-01-01,Global,4.28
+2022-01-01,Crédits à l'équipement,4.3
+2022-01-01,Crédits immobiliers,4.6
+2022-01-01,Crédits à la consommation,6.5
+2022-01-01,Particuliers,5.23
+2022-01-01,Entreprises non financières,4.0
+2022-01-01,Entreprises non financières privées,4.02
+2022-01-01,TPME,4.85
+2022-01-01,GE,3.65
+2022-04-01,Global,4.29
+2022-04-01,Crédits à l'équipement,4.56
+2022-04-01,Crédits immobiliers,4.65
+2022-04-01,Crédits à la consommation,6.32
+2022-04-01,Particuliers,5.14
+2022-04-01,Entreprises non financières,4.03
+2022-04-01,Entreprises non financières privées,4.05
+2022-04-01,TPME,4.82
+2022-04-01,GE,3.79
+2022-07-01,Global,4.24
+2022-07-01,Crédits à l'équipement,4.14
+2022-07-01,Crédits immobiliers,4.69
+2022-07-01,Crédits à la consommation,6.39
+2022-07-01,Particuliers,5.33
+2022-07-01,Entreprises non financières,4.04
+2022-07-01,Entreprises non financières privées,4.12
+2022-07-01,TPME,4.94
+2022-07-01,GE,3.87
+2022-10-01,Global,4.5
+2022-10-01,Crédits immobiliers,4.84
+2022-10-01,Crédits à la consommation,6.4
+2022-10-01,Particuliers,5.72
+2022-10-01,Entreprises non financières,4.3
+2022-10-01,Entreprises non financières privées,4.4
+2022-10-01,TPME,5.04
+2022-10-01,GE,4.19
+2022-10-01,Crédits à l'équipement,4.4
+2023-01-01,Global,5.03
+2023-01-01,Crédits immobiliers,4.79
+2023-01-01,Crédits à la consommation,6.95
+2023-01-01,Particuliers,5.63
+2023-01-01,Entreprises non financières,4.98
+2023-01-01,Entreprises non financières privées,5.03
+2023-01-01,TPME,5.48
+2023-01-01,GE,4.79
+2023-04-01,Global,5.26
+2023-04-01,Crédits à l'équipement,4.74
+2023-04-01,Crédits immobiliers,4.98
+2023-04-01,Crédits à la consommation,7.27
+2023-04-01,Particuliers,5.93
+2023-04-01,Entreprises non financières,5.22
+2023-04-01,Entreprises non financières privées,5.27
+2023-04-01,TPME,5.77
+2023-04-01,GE,5.01
+2023-07-01,Global,5.36
+2023-07-01,Crédits à l'équipement,5.11
+2023-07-01,Crédits immobiliers,5.21
+2023-07-01,Crédits à la consommation,7.25
+2023-07-01,Particuliers,5.94
+2023-07-01,Entreprises non financières,5.32
+2023-07-01,Entreprises non financières privées,5.36
+2023-07-01,TPME,5.75
+2023-07-01,GE,5.05
+2023-10-01,Global,5.36
+2023-10-01,Crédits à l'équipement,4.91
+2023-10-01,Crédits immobiliers,5.14
+2023-10-01,Crédits à la consommation,7.18
+2023-10-01,Particuliers,5.94
+2023-10-01,Entreprises non financières,5.3
+2023-10-01,Entreprises non financières privées,5.42
+2023-10-01,TPME,5.7
+2023-10-01,GE,5.25
+2024-01-01,Global,5.4
+2024-01-01,Crédits à l'équipement,5.13
+2024-01-01,Crédits immobiliers,5.05
+2024-01-01,Crédits à la consommation,7.22
+2024-01-01,Particuliers,6.09
+2024-01-01,Entreprises non financières,5.26
+2024-01-01,Entreprises non financières privées,5.38
+2024-01-01,TPME,5.85
+2024-01-01,GE,5.16
+2024-04-01,Global,5.43
+2024-04-01,Crédits à l'équipement,5.02
+2024-04-01,Crédits immobiliers,5.3
+2024-04-01,Crédits à la consommation,7.03
+2024-04-01,Particuliers,5.89
+2024-04-01,Entreprises non financières,5.37
+2024-04-01,Entreprises non financières privées,5.45
+2024-04-01,TPME,5.68
+2024-04-01,GE,5.34
+2024-07-01,Global,5.21
+2024-07-01,Comptes débiteurs et crédits de trésorerie,5.08
+2024-07-01,Crédits à l'équipement,5.26
+2024-07-01,Crédits immobiliers,5.24
+2024-07-01,Crédits à la consommation,7.06
+2024-07-01,Particuliers,5.91
+2024-07-01,Entreprises non financières,5.12
+2024-07-01,Entreprises non financières privées,5.33
+2024-07-01,TPME,5.74
+2024-07-01,GE,5.14
+2024-10-01,Global,5.08
+2024-10-01,Comptes débiteurs et crédits de trésorerie,5.0
+2024-10-01,Crédits à l'équipement,4.99
+2024-10-01,Crédits immobiliers,5.02
+2024-10-01,Crédits à la consommation,6.99
+2024-10-01,Particuliers,5.79
+2024-10-01,Entreprises non financières,5.0
+2024-10-01,Entreprises non financières privées,5.26
+2024-10-01,TPME,5.7
+2024-10-01,GE,5.08
+2025-01-01,Global,4.98
+2025-01-01,Comptes débiteurs et crédits de trésorerie,4.74
+2025-01-01,Crédits à l'équipement,5.15
+2025-01-01,Crédits immobiliers,5.18
+2025-01-01,Crédits à la consommation,7.13
+2025-01-01,Particuliers,5.96
+2025-01-01,Entreprises non financières,4.84
+2025-01-01,Entreprises non financières privées,5.17
+2025-01-01,TPME,5.61
+2025-01-01,GE,4.96
+2025-04-01,Global,4.84
+2025-04-01,Comptes débiteurs et crédits de trésorerie,4.65
+2025-04-01,Crédits à l'équipement,4.83
+2025-04-01,Crédits immobiliers,5.13
+2025-04-01,Crédits à la consommation,6.88
+2025-04-01,Particuliers,5.77
+2025-04-01,Entreprises non financières,4.72
+2025-04-01,Entreprises non financières privées,4.91
+2025-04-01,TPME,5.43
+2025-04-01,GE,4.67
+2025-07-01,Global,4.85
+2025-07-01,Comptes débiteurs et crédits de trésorerie,4.73
+2025-07-01,Crédits à l'équipement,4.49
+2025-07-01,Crédits immobiliers,5.05
+2025-07-01,Crédits à la consommation,6.89
+2025-07-01,Particuliers,5.71
+2025-07-01,Entreprises non financières,4.74
+2025-07-01,Entreprises non financières privées,4.88
+2025-07-01,TPME,5.41
+2025-07-01,GE,4.64
+2025-10-01,Global,4.82
+2025-10-01,Comptes débiteurs et crédits de trésorerie,4.58
+2025-10-01,Crédits à l'équipement,4.95
+2025-10-01,Crédits immobiliers,5.19
+2025-10-01,Crédits à la consommation,6.89
+2025-10-01,Particuliers,5.69
+2025-10-01,Entreprises non financières,4.72
+2025-10-01,Entreprises non financières privées,4.94
+2025-10-01,TPME,5.22
+2025-10-01,GE,4.74
+2026-01-01,Global,4.66
+2026-01-01,Comptes débiteurs et crédits de trésorerie,4.47
+2026-01-01,Crédits à l'équipement,4.37
+2026-01-01,Crédits immobiliers,5.13
+2026-01-01,Crédits à la consommation,6.86
+2026-01-01,Particuliers,5.74
+2026-01-01,Entreprises non financières,4.54
+2026-01-01,Entreprises non financières privées,4.79
+2026-01-01,TPME,5.2
+2026-01-01,GE,4.55

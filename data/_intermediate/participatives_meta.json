@@ -1,0 +1,1159 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "file": "Indicateurs__janvier_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-11-01 00:00:00",
+    "file": "Indicateurs_a__publier_FP_-_novembre_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-04-01 00:00:00",
+    "file": "Indicateurs_BP_à_fin_AVRIL_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "file": "Indicateurs_BP_à_fin_MAI_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-12-01 00:00:00",
+    "file": "indicateurs_de_l_activité_des_banques_et_fenêtres_participatives_à_fin_décembre_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-03-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_-_03_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-06-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_-_06_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-07-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_-_07_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-02-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_-_février_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-09-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_-_09_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-10-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_-_10_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-11-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_-_11_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-04-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Avril_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-12-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Décembre_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-12-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Décembre_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-03-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Mars_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-11-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Novembre_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-10-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Octobre_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-09-01 00:00:00",
+    "file": "Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Septembre_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2019-08-01 00:00:00",
+    "file": "Indicateurs_des_banques_participatives-Août_2019.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total"
+    ]
+  },
+  {
+    "date": "2019-07-01 00:00:00",
+    "file": "Indicateurs_des_banques_participatives-Juillet_2019.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total"
+    ]
+  },
+  {
+    "date": "2019-10-01 00:00:00",
+    "file": "Indicateurs_des_banques_participatives-Octobre_2019.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total"
+    ]
+  },
+  {
+    "date": "2019-09-01 00:00:00",
+    "file": "Indicateurs_des_banques_participatives-Septembre_2019.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total"
+    ]
+  },
+  {
+    "date": "2023-02-01 00:00:00",
+    "file": "Indicateurs_finance_participative_février_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-03-01 00:00:00",
+    "file": "Indicateurs_finance_participative_à_fin_mars_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-08-01 00:00:00",
+    "file": "Indicateurs_publiables_-_août_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-04-01 00:00:00",
+    "file": "Indicateurs_publiables_-_avril_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-07-01 00:00:00",
+    "file": "Indicateurs_publiables_-_juillet_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "file": "Indicateurs_publiables_-_mai_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-12-01 00:00:00",
+    "file": "Indicateurs_publiables_12_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_dont",
+      "Mourabaha_hors",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-06-01 00:00:00",
+    "file": "Indicateurs_publiables_FP_-_juin_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-08-01 00:00:00",
+    "file": "Indicateurs_publiables_à_fin_août_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-07-01 00:00:00",
+    "file": "Indicateurs_publiables_à_fin_juillet_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-06-01 00:00:00",
+    "file": "Indicateurs_publiables_à_fin_juin_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "file": "Indicateurs_publiables_à_fin_novembre_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-10-01 00:00:00",
+    "file": "Indicateurs_publiables_à_fin_octobre_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_dont",
+      "Mourabaha_hors",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2021-09-01 00:00:00",
+    "file": "Indicateurs_publiables_à_fin_septembre_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_dont",
+      "Mourabaha_hors",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "file": "Indicateurs_à_publier_-05_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-01-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_01_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-02-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_02_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-02-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_02_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-03-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_03_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_04_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-04-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_04_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_05_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-06-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_06_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-06-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_06_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-07-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_07_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-07-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_07_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2023-08-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_08_2023.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-08-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_08_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-08-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_08_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-09-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_09_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-10-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_10_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_11_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2024-12-01 00:00:00",
+    "file": "Indicateurs_à_publier_-_12_2024.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-01-01 00:00:00",
+    "file": "Indicateurs_à_publier_01_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-10-01 00:00:00",
+    "file": "Indicateurs_à_publier_FP_-_octobre_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-09-01 00:00:00",
+    "file": "Indicateurs_à_publier_FP_-_septembre_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2025-12-01 00:00:00",
+    "file": "SAMPLE_Indicateurs_des_banques_et_fenêtres_participatives_à_fin_Décembre_2025.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_matieres_premieres",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Mourabaha_matieres_premieres_hors_marges",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2019-12-01 00:00:00",
+    "file": "TDB_banques_participatives-Décembre_2019.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges"
+    ]
+  },
+  {
+    "date": "2020-08-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Août_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2020-04-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Avril_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total"
+    ]
+  },
+  {
+    "date": "2020-12-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Décembre_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2020-02-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Février_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges"
+    ]
+  },
+  {
+    "date": "2020-01-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Janvier2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges"
+    ]
+  },
+  {
+    "date": "2021-01-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Janvier_2021.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-01-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Janvier_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2020-07-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Juillet_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total"
+    ]
+  },
+  {
+    "date": "2020-06-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Juin_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total"
+    ]
+  },
+  {
+    "date": "2020-03-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Mars_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges"
+    ]
+  },
+  {
+    "date": "2020-11-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Novembre_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2020-10-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Octobre_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2020-09-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives-Septembre_2020.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-02-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives_02_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Salam"
+    ]
+  },
+  {
+    "date": "2022-03-01 00:00:00",
+    "file": "TDB_Indicateurs_des_banques_participatives_03_2022.pdf",
+    "metrics": [
+      "Depot_vue",
+      "Depot_investissement",
+      "Mourabaha_total",
+      "Mourabaha_immobiliere",
+      "Mourabaha_automobile",
+      "Mourabaha_equipement",
+      "Mourabaha_hors_marges_total",
+      "Mourabaha_immobiliere_hors_marges",
+      "Mourabaha_automobile_hors_marges",
+      "Mourabaha_equipement_hors_marges",
+      "Salam"
+    ]
+  }
+]
