@@ -249,32 +249,39 @@ def parse_sm_table_3_1(text):
 def parse_flash_pdf(text):
     """Flash PDF: 'Crédit bancaire aux ménages par nature de crédit' section.
     Format: 'Total 395,6 0,1 3,6' (current MMDH, monthly_var, annual_var)
+
+    Multiple lines can contain 'Mourabaha immobilière' (e.g. in narrative text),
+    so we look for the line that has the table format (label + 3 numeric groups).
     """
     results = {}
 
     def find_flash_row(label):
-        # 'Habitat 256,2 0,2 3,3' (current MMDH, monthly var, annual var)
-        pat = r"\b" + label + r"\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)"
-        m = re.search(pat, text)
-        if m:
-            try:
-                return float(m.group(1).replace(",", ".")) * 1000  # MMDH → MDH
-            except ValueError:
-                return None
+        # Anchor to end-of-line ($) so we match table rows, not narrative prose
+        pat = label + r"\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)\s*$"
+        for line in text.split("\n"):
+            line = line.strip()
+            if re.search(pat, line):
+                try:
+                    return float(re.search(pat, line).group(1).replace(",", ".")) * 1000
+                except (ValueError, AttributeError):
+                    return None
         return None
 
     results["credits_habitat_MMDH"] = find_flash_row(r"Habitat")
     results["credits_consommation_MMDH"] = find_flash_row(r"Consommation")
-    results["murabaha_habitat_MMDH"] = find_flash_row(r"Mourabaha\s+immobili[eè]re")
-    results["credits_menages_total_MMDH"] = find_flash_row(r"Total\b")
+    results["murabaha_habitat_MMDH"] = find_flash_row(r"Mourabaha\s+immobili[eè]re\*?")
+    results["credits_menages_total_MMDH"] = find_flash_row(r"Total")
 
     # Also try to get "Crédit bancaire" total in MMDH
-    m = re.search(r"Cr[eé]dit\s+bancaire\s+\*\s+([\d,]+)", text)
-    if m:
-        try:
-            results["credit_bancaire_total_MMDH"] = float(m.group(1).replace(",", ".")) * 1000
-        except ValueError:
-            pass
+    for line in text.split("\n"):
+        line = line.strip()
+        m = re.match(r"Cr[eé]dit\s+bancaire\s+\*\s+([\d,]+)\s*$", line)
+        if m:
+            try:
+                results["credit_bancaire_total_MMDH"] = float(m.group(1).replace(",", ".")) * 1000
+                break
+            except ValueError:
+                pass
 
     return results
 

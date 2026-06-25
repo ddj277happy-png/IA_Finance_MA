@@ -47,9 +47,8 @@
   {
     "credits_habitat_MMDH": 257700.0,
     "credits_consommation_MMDH": 61800.0,
-    "murabaha_habitat_MMDH": null,
+    "murabaha_habitat_MMDH": 31000.0,
     "credits_menages_total_MMDH": 399900.0,
-    "credit_bancaire_total_MMDH": 1000.0,
     "date": "2026-04-01 00:00:00",
     "source": "DSGD_Flash_crédits_dépôts_AVRIL_2026.pdf",
     "type": "Flash"
@@ -57,9 +56,8 @@
   {
     "credits_habitat_MMDH": 244000.0,
     "credits_consommation_MMDH": null,
-    "murabaha_habitat_MMDH": null,
+    "murabaha_habitat_MMDH": 21600.0,
     "credits_menages_total_MMDH": 443600.0,
-    "credit_bancaire_total_MMDH": 1000.0,
     "date": "2023-12-01 00:00:00",
     "source": "DSGD_Flash_crédits_dépôts_déc_2023__.pdf",
     "type": "Flash"
@@ -82,9 +80,8 @@
   {
     "credits_habitat_MMDH": 239000.0,
     "credits_consommation_MMDH": null,
-    "murabaha_habitat_MMDH": null,
-    "credits_menages_total_MMDH": 449400.0,
-    "credit_bancaire_total_MMDH": 1000.0,
+    "murabaha_habitat_MMDH": 18900.0,
+    "credits_menages_total_MMDH": null,
     "date": "2022-12-01 00:00:00",
     "source": "Flash_cre_dits_de_po_ts_De_c_2022_VF_.pdf",
     "type": "Flash"
@@ -92,9 +89,8 @@
   {
     "credits_habitat_MMDH": 248100.0,
     "credits_consommation_MMDH": null,
-    "murabaha_habitat_MMDH": null,
+    "murabaha_habitat_MMDH": 24900.0,
     "credits_menages_total_MMDH": 453600.0,
-    "credit_bancaire_total_MMDH": 1000.0,
     "date": "2024-12-01 00:00:00",
     "source": "Flash_crédits_dépôts_Decmbre_2024.pdf",
     "type": "Flash"
@@ -102,9 +98,8 @@
   {
     "credits_habitat_MMDH": 256200.0,
     "credits_consommation_MMDH": 61100.0,
-    "murabaha_habitat_MMDH": null,
+    "murabaha_habitat_MMDH": 29700.0,
     "credits_menages_total_MMDH": 395600.0,
-    "credit_bancaire_total_MMDH": 1000.0,
     "date": "2025-12-01 00:00:00",
     "source": "Flash_crédits_dépôts_déc_2025.pdf",
     "type": "Flash"
@@ -112,9 +107,8 @@
   {
     "credits_habitat_MMDH": 233100.0,
     "credits_consommation_MMDH": null,
-    "murabaha_habitat_MMDH": null,
+    "murabaha_habitat_MMDH": 15900.0,
     "credits_menages_total_MMDH": 366800.0,
-    "credit_bancaire_total_MMDH": 988200.0,
     "date": "2021-12-01 00:00:00",
     "source": "Flash_crédits_dépôts_Décembre_2021.pdf",
     "type": "Flash"
