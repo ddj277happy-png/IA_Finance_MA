@@ -13,3 +13,7 @@ Thumbs.db
 __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
+
+# Raw BAM data caches (kept local; only cleaned CSVs go to repo)
+data/_raw_pdf/
+data/_raw_html/
