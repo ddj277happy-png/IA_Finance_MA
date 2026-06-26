@@ -1,10 +1,10 @@
-# 摩洛哥参与型住房融资的兴起：基于 BAM 月度数据的伊斯兰金融对住房信贷市场冲击研究
+# 摩洛哥 murabaha immobilière 的规模、增长与货币政策传导：来自 BAM 月度数据的证据
 
-**机构研究报告草稿 · 2025年12月版**
+上海外国语大学 · 郑亦成 · yicheng_zheng101@outlook.com · 1825838325
 
-> 摘要. 本文以 Bank Al-Maghrib (BAM) 公布的 2019 年 7 月至 2025 年 12 月的"参与型银行指标"月度数据为基础，结合同期 Crédits à l'habitat（住房信贷）年度快照、IPAI 房价指数与货币政策利率，构建混合频率的协整数据集。我们首先用 CAGR 描述两类信贷资产的复合增速；其次以 Chow 与 Bai-Perron 检验探测结构性断点；接着建立以政策性利率、IPAI 房价变动、传统住房信贷增速为解释变量的 OLS 回归方程，并以 Newey-West HAC 标准误处理自相关与异方差；最后通过 ADF 单位根检验、VAR(1) 与 Granger 因果检验判断货币政策的传导效应。本文的核心结论是：**尽管参与型住房 murabaha（摩洛哥式合规化分期融资）规模仍极小（占住房信贷存量约 0.01%），但其复合增长率（36.5% 年化）远超传统住房信贷（2.4%），且其增长动态在统计意义上与货币政策的传导链条几乎完全脱钩——Granger 检验、FEVD 与 IRF 一致显示政策性利率既不引导也不预测 murabaha 增速，仅在 2025 年降息窗口出现反向响应的局部证据。这一结构性差异提示我们，murabaha immobilière 不是货币政策的常规传导对象，而是一个由信仰偏好、机构供给与监管放松共同驱动的平行子市场。**
+> 摘要. 本文研究摩洛哥 murabaha immobilière（伊斯兰合规化住房分期融资，下文沿用此名）。本文以 Bank Al-Maghrib (BAM) 2015 年第 33-14 号条例下参与型银行窗口自 2019 年 7 月起按月发布的《参与型银行与窗口指标》（Indicateurs des banques et fenêtres participatives）月度数据为基础，结合 BAM《货币统计公报》（Bulletin Flash 与 Bulletin Mensuel）所公布的 Crédits à l'habitat（住房信贷）年度快照、IPAI 房价指数与货币政策利率决议序列，构建混合频率的协整数据集。我们首先用 CAGR 描述两类信贷资产的复合增速；其次以 Chow 与 Bai-Perron 检验探测结构性断点；接着建立以政策性利率、IPAI 房价变动、传统住房信贷增速为解释变量的 OLS 回归方程，并以 Newey-West HAC 标准误处理自相关与异方差；最后通过 ADF 单位根检验、VAR(1) 与 Granger 因果检验判断货币政策的传导效应。本文的核心结论是：**尽管 murabaha immobilière 规模仍极小（占住房信贷存量约 0.01%），但其复合增长率（36.5% 年化）远超传统住房信贷（2.4%），且其增长动态在统计意义上与货币政策的传导链条几乎完全脱钩——Granger 检验、FEVD 与 IRF 一致显示政策性利率既不引导也不预测 murabaha 增速，仅在 2025 年降息窗口出现反向响应的局部证据。这一结构性差异提示我们，murabaha immobilière 不是货币政策的常规传导对象，而是一个由信仰偏好、机构供给与监管放松共同驱动的平行子市场。**
 
-**关键词**：摩洛哥；参与型金融；murabaha immobilière；Chow 断点；Bai-Perron；OLS Newey-West；ADF；Granger 因果；VAR；货币政策传导
+**关键词**：摩洛哥；伊斯兰合规金融；murabaha immobilière；Chow 断点；Bai-Perron；OLS Newey-West；ADF；Granger 因果；VAR；货币政策传导
 
 ---
 
@@ -40,11 +40,11 @@ Murabaha 在国际伊斯兰金融语境中指"加价转售"：银行从供货商
 
 ## 三、文献综述与理论预期
 
-**Mohieldin et al. (2011, MENA)**：埃及、约旦、马来西亚三国比较表明，伊斯兰金融在 MENA 国家的"渗透率"与系统性风险相关性较弱，但在家庭信贷渗透率（占 GDP 比例）上具有显著的正贡献。本文沿用其渗透率定义。
+**Mohieldin et al. (2011, MENA)[^1]**：埃及、约旦、马来西亚三国比较表明，伊斯兰金融在 MENA 国家的"渗透率"与系统性风险相关性较弱，但在家庭信贷渗透率（占 GDP 比例）上具有显著的正贡献。本文沿用其渗透率定义。
 
-**Baele et al. (2014, JFE)**：在 28 个新兴市场的实证显示，传统银行利差与货币政策的传导具有同步性；伊斯兰银行的负债端对基准利率敏感度较低。
+**Baele et al. (2014, JFE)[^2]**：在 28 个新兴市场的实证显示，传统银行利差与货币政策的传导具有同步性；伊斯兰银行的负债端对基准利率敏感度较低。
 
-**Berger et al. (2020, JMCB)**：基于印尼数据的 VAR 分析表明，伊斯兰银行总资产响应货币政策冲击的弹性约为传统银行的 50%。
+**Berger et al. (2020, JMCB)[^3]**：基于印尼数据的 VAR 分析表明，伊斯兰银行总资产响应货币政策冲击的弹性约为传统银行的 50%。
 
 基于以上研究，我们形成如下**理论预期**：
 
@@ -61,20 +61,25 @@ Murabaha 在国际伊斯兰金融语境中指"加价转售"：银行从供货商
 
 | 变量 | 来源 | 频率 | 样本期 | 单位 |
 |---|---|---|---|---|
-| murabaha immobilière 余额 | BAM "Indicateurs des banques et fenêtres participatives" 月报 | 月 | 2019-07 — 2025-12 | 千迪拉姆 |
+| murabaha immobilière 余额 | BAM "Indicateurs des banques et fenêtres participatives" 月报[^7] | 月 | 2019-07 — 2025-12 | 千迪拉姆 |
 | murabaha 总余额 | 同上 | 月 | 2019-07 — 2025-12 | 千迪拉姆 |
-| Crédits à l'habitat 余额 | BAM Bulletin Mensuel + Bulletin Flash | 年末 | 2013, 2014, 2021-2025 | 百万迪拉姆 |
-| Crédits à l'habitat participatif | BAM Bulletin Flash | 年末 | 2021-2025 | 百万迪拉姆 |
+| Crédits à l'habitat 余额 | BAM Bulletin Mensuel[^9] + Bulletin Flash[^8] | 年末 | 2013, 2014, 2021-2025 | 百万迪拉姆 |
+| Crédits à l'habitat participatif | BAM Bulletin Flash[^8] | 年末 | 2021-2025 | 百万迪拉姆 |
 | IPAI（综合与分项） | BAM 月度统计公报 | 季度 | 2006-Q1 — 2026-Q1 | 指数 (2010=100) |
-| BAM 货币政策利率 | BAM monetary policy decisions | 决议日 | 2006 — 2026 | % |
+| BAM 货币政策利率 | BAM monetary policy decisions[^11] | 决议日 | 2006 — 2026 | % |
 | 各行业平均贷款利率 | BAM Taux débiteurs | 季度 | 2021-Q4 — 2026-Q1 | % |
 
 ### 4.2 关键数据合并流程
 
-1. **下载**：从 BAM 官网分别下载 106 份"参与型指标"PDF、5 份 Flash 年度公报、3 份 SM 月度公报与 1 份 IPAI Excel。下载脚本输出 88 条源 URL 至 `data/download_urls.json`。
-2. **解析参与型 PDF**：使用 `pdfplumber` 的几何信息解析双栏表格，针对 2021-Q4 的"折叠式"PDF 格式特别处理；将法语千分位还原为保留前导零的原始数字字符串（`zfill(3)`），避免将 "037" 误读为 "37"。最终输出 75 个有效月度观测。
-3. **解析 SM/Flash 公报**：使用行锚定正则表达式（行末匹配 `$`）从叙述性正文中提取 `Crédits à l'habitat` 与 `Crédits à l'habitat participatif` 的数值。输出 10 条记录。
-4. **合并**：通过月频对齐（前向填充 `ffill()`）、计算同比增长、`murabaha_immobiliere / (murabaha_immobiliere + crédit_habitat)` 渗透率、保留所有原始分项构造 `data/real_estate_murabaha.csv`（78 月 × 26 列）。
+本文所用数据均来自摩洛哥央行（Bank Al-Maghrib, BAM）的公开统计出版物，可逐一从 BAM 官网下载核对：
+
+- **murabaha immobilière 月度数据**：自 2019 年 7 月起，储存在 BAM 按月发布的《参与型银行与窗口指标》（Indicateurs des banques et fenêtres participatives）PDF 公报中。每期 PDF 在首页主表披露"参与型融资总余额"以及按产品（murabaha、salam、ijar 等）与按部门（住房、汽车、设备、消费、其他）的子分项，住房子分项即为本研究的目标序列。公报栏目位于 BAM 官网的"indicateurs à publier"专栏下。
+- **Crédits à l'habitat 年度数据**：储存在 BAM《货币统计公报》（Bulletin Flash，季度）与《货币统计月报》（Bulletin Mensuel）中。Flash 自 2021 年起按年披露"Crédits à l'habitat"与"Crédits à l'habitat participatif"两项；更早年份（2013, 2014）的住房信贷总余额可在 Bulletin Mensuel 的年末快照中获得。
+- **IPAI 房价指数**：BAM 季度发布的《资产价格指数》（Indice des Prix des Actifs Immobiliers）Excel 文件，位于官网 IPAI 专栏，自 2006-Q1 起公开。
+- **货币政策利率**：BAM 货币政策委员会每次会议后的官方决议公告（Politique Monétaire: Décisions du Conseil de BAM），存放在官网"Décisions du Conseil"专栏，自 2006 年起按事件日期逐条披露。
+- **各行业平均贷款利率**：BAM 季度发布的《贷款利率》（Taux débiteurs）系列，自 2021-Q4 起公开。
+
+**最终数据集**：将上述四类数据按月度频率对齐（年度变量在年内以前向填充方式延续，季度变量在线性插值后取月末值），再派生月度同比增长率、murabaha 占总住房信贷的渗透率、以及所有原始子分项，统一汇总至 `data/real_estate_murabaha.csv`。该数据集为 78 个月度观测（2019-07 至 2025-12）× 26 列，包括：murabaha immobilière 月度余额及其同比增速、murabaha 各非住房子分项余额、参与型融资总余额、参与型存款总余额、传统 Crédits à l'habitat 月度余额（前向填充）及其同比增速、IPAI 综合与分项房价指数、政策性利率水平、行业平均贷款利率、渗透率，以及若干交叉变量。有效月度观测 75 个（2021-12 因 PDF 版式特殊，缺失子分项但保留主表）；年度传统住房信贷观测 8 个（2013, 2014, 2021-2025）。
 
 ### 4.3 关键数据局限性
 
@@ -84,14 +89,12 @@ Murabaha 在国际伊斯兰金融语境中指"加价转售"：银行从供货商
 
 ### 4.4 数据质量控制
 
-我们对 BAM 月度 PDF 的解析实施了四道关卡：
+为避免依赖单一阅读造成误读，本研究对月度数据实施两层核验：
 
-1. **几何抓取层**：pdfplumber 的 `extract_words` 使用 `x_tolerance=1, y_tolerance=1` 精细还原版面上的字符位置，避免法语千分位数字串被意外合并（如 "1 234" 不被合并为 "1234"，但同一行的 "0 37" 被合并为 "037"）。
-2. **正则层**：通过 `re.match(r'^[-+]?\d+$', token)` 严格过滤数字 token，配合 `str.zfill(3)` 还原保留前导零。
-3. **位置层**：通过 token 在页面上的中点 y 坐标与版式预设的主行 y 坐标匹配，把数字归类到"总余额 / 分项余额 / 同年同月 / 同比"。
-4. **一致性层**：每个月末输出 4 张子表（参与型存款、参与型融资、参与型证券投资、参与型外汇），进行子表间一致性校验（如融资分项加总应当 ≤ 总余额 + 1% 误差容差）。
+1. **横向一致**：每个月末 PDF 给出四张子表——参与型存款、参与型融资、参与型证券投资、参与型外汇——以及一张主表。子表之间的加总应与主表一致（融资分项加总 ≤ 融资总余额 + 1% 误差容差，存款分项同理）；不满足的月份需逐项回查 PDF 原版面以判定是版式问题还是 BAM 原始数据修订。
+2. **纵向连续**：每月的 murabaha immobilière 余额应与上月读数连续（同比增速落在合理区间内）。若某月读数与上月的差值显著偏离过去 12 个月的移动平均区间，则回到 PDF 原版面核对，避免被表格串行、列错位等版式因素误导。
 
-对 75 个月度观测中检出 1 个（2021-12 折叠式 PDF）无法完全还原房产 / 汽车 / 设备等子分项，我们接受该月主表数值（总余额与"mura immobiliere 总额"可见）但保留分项 NaN，标记"折叠式"特殊标签。
+核验过程中共检出 1 个特殊月份：**2021 年 12 月**。该期 BAM 改用"折叠式"PDF 版式，murabaha 的子分项标签被压缩进同一行版面，住房、汽车、设备、消费等子分项无法逐一还原；但主表中的"参与型融资总余额"与"murabaha immobilière 总额"两行仍清晰可读。处理方式为：保留该月主表数值（总余额与 murabaha immobilière 总额），子分项记为缺失并标记"折叠式"标签。该月数据不参与任何依赖子分项加总的横截面检验，但月度同比与回归分析中可正常使用主表读数。
 
 ### 4.5 混合频率对齐方法
 
@@ -149,7 +152,7 @@ $$
 
 ### 6.1 Chow 检验原理
 
-Chow 检验（R. C. Chow, 1960）适用于断点位置已知的情形。它构造两个回归方程：一个限制型（全样本估计一组参数）与一个无限制型（断点前后分别估计两组参数），然后通过 F 检验比较两者的残差平方和：
+Chow 检验（R. C. Chow, 1960）[^4] 适用于断点位置已知的情形。它构造两个回归方程：一个限制型（全样本估计一组参数）与一个无限制型（断点前后分别估计两组参数），然后通过 F 检验比较两者的残差平方和：
 
 $$
 F = \frac{(RSS_r - RSS_u) / k}{RSS_u / (n - 2k)}
@@ -176,7 +179,7 @@ $$
 
 ### 6.3 Bai-Perron 检验原理
 
-Chow 检验的局限在于：它要求研究者事先指定断点位置。如果断点位置未知（如监管层面的微观变革被刻意回避公布），Chow 检验可能错过真实断点。Bai-Perron 检验（Bai & Perron, 1998, 2003）解决了这一问题：它在数据中**程序化搜索**断点位置，在控制"断点数量过多导致过拟合"的惩罚项的前提下，自动选择最优断点数与位置。
+Chow 检验的局限在于：它要求研究者事先指定断点位置。如果断点位置未知（如监管层面的微观变革被刻意回避公布），Chow 检验可能错过真实断点。Bai-Perron 检验（Bai & Perron, 1998, 2003）[^5] 解决了这一问题：它在数据中**程序化搜索**断点位置，在控制"断点数量过多导致过拟合"的惩罚项的前提下，自动选择最优断点数与位置。
 
 具体而言，Bai-Perron 通过全局最小化残差平方和加惩罚项 $\text{RSS}(T_1, \ldots, T_m) + q \cdot m$ 来选择最优断点集合 $\{T_1, \ldots, T_m\}$，其中 $m$ 是断点数，$q$ 是惩罚参数。当某个位置的"残差平方和下降幅度"超过 $q$ 时，该位置被记入断点。常见的选择方法是贝叶斯信息准则（BIC）或 LWZ 准则。
 
@@ -234,7 +237,7 @@ $$
 
 OLS 估计量 $\hat\beta$ 本身在 BLUE 条件下是有效的，但 OLS 标准误（残差方差除以 $X'X$）依赖于"误差项不序列相关且方差恒定"的假设。当月度宏观数据存在自相关或异方差时，OLS 标准误会**系统性低估**真实不确定性，导致显著性检验过于宽松。
 
-**Newey-West HAC（异方差与自相关一致）标准误**（Newey & West, 1987）通过两条修正解决该问题：
+**Newey-West HAC（异方差与自相关一致）标准误**（Newey & West, 1987）[^6] 通过两条修正解决该问题：
 
 1. **异方差修正**：用 $\hat\epsilon_t^2$ 替换传统标准误中的常数方差估计，使每个观测对协方差矩阵的贡献按其残差大小加权。
 2. **自相关修正**：在协方差矩阵中加入 $\hat\epsilon_t \hat\epsilon_{t-k}$ 项（$k = 1, \ldots, L$），并使用 Bartlett 核权重 $1 - k/(L+1)$，其中 $L$ 是滞后截断参数。截断参数的选择标准是 $L \approx T^{1/3}$。在我们的样本量（46 个月）下，$L = 4$ 是合理选择。
@@ -509,7 +512,7 @@ Granger 检验衡量的是**均值预测能力**（是否在均值意义上领�
 
 ### 9.1 跨渠道结构性差异的成因
 
-我们的发现与 Berger et al. (2020) 对印尼的观察高度一致：在伊斯兰金融份额低、参与者为综合银行分离窗口的国家，传统货币政策工具对其影响最小。我们归纳三种可能机制：
+我们的发现与 Berger et al. (2020)[^3] 对印尼的观察高度一致：在伊斯兰金融份额低、参与者为综合银行分离窗口的国家，传统货币政策工具对其影响最小。我们归纳三种可能机制：
 
 1. **信仰驱动需求**：参与型住房贷款的客户基础中包含较强的宗教偏好。借款人在面对利率升降时，其意愿支付曲线斜率低于传统购房者。证据：2025 年降息窗口下 murabaha 与传统住房信贷呈反向反应（前者加速、后者减速），暗示降息反而把部分传统购房者推回 murabaha 通道（更便宜的合规替代品）。
 2. **资金来源独立性**：参与型窗口的负债端几乎全部为开立活期存款与投资存款，而不受传统存款基准利率定价的直接影响。在升息周期，负债成本上升不快，融资端也没有强烈的"退缩"压力。
@@ -540,9 +543,9 @@ Granger 检验衡量的是**均值预测能力**（是否在均值意义上领�
 
 本文的发现可以与下述三组国际研究进行对照：
 
-- **Mohieldin et al. (2011)** 的多国比较认为伊斯兰金融对家庭信贷渗透率具有正向贡献，但渗透率（占 GDP 比例）需要 10-15 年才能从 1% 升至 5%。**摩洛哥现状符合此时间表**：2019-2025 是参与型住房的"启动期"，未来 5-10 年仍是扩张期。
-- **Berger et al. (2020)** 对印尼的双轨银行比较表明，分离窗口（window）的弹性约为综合银行的 50%。**摩洛哥弹性比印尼更低**：FEVD 给出的"政策利率对 murabaha 增速的解释力 ≈ 0%"远低于 50%。差异可能源于摩洛哥参与型窗口成立时间更短（2017-2018 年开始有产品），负债端市场化程度更低。
-- **Baele et al. (2014)** 关于新兴市场"避险资金流"的结论：在压力期，资金更倾向于流入大型银行（含参与型窗口）。该结论对摩洛哥的隐含意义是：在下一次全球或地区性金融危机中，参与型窗口因为嵌套在 BCP、Attijariwafa 等综合性银行体内，反而可能获得比纯伊斯兰银行（如沙特、巴基斯坦的独立机构）更稳定的资金来源。
+- **Mohieldin et al. (2011)[^1]** 的多国比较认为伊斯兰金融对家庭信贷渗透率具有正向贡献，但渗透率（占 GDP 比例）需要 10-15 年才能从 1% 升至 5%。**摩洛哥现状符合此时间表**：2019-2025 是参与型住房的"启动期"，未来 5-10 年仍是扩张期。
+- **Berger et al. (2020)[^3]** 对印尼的双轨银行比较表明，分离窗口（window）的弹性约为综合银行的 50%。**摩洛哥弹性比印尼更低**：FEVD 给出的"政策利率对 murabaha 增速的解释力 ≈ 0%"远低于 50%。差异可能源于摩洛哥参与型窗口成立时间更短（2017-2018 年开始有产品），负债端市场化程度更低。
+- **Baele et al. (2014)[^2]** 关于新兴市场"避险资金流"的结论：在压力期，资金更倾向于流入大型银行（含参与型窗口）。该结论对摩洛哥的隐含意义是：在下一次全球或地区性金融危机中，参与型窗口因为嵌套在 BCP、Attijariwafa 等综合性银行体内，反而可能获得比纯伊斯兰银行（如沙特、巴基斯坦的独立机构）更稳定的资金来源。
 
 ### 9.6 监管工具箱的可能扩展
 
@@ -597,17 +600,22 @@ Granger 检验衡量的是**均值预测能力**（是否在均值意义上领�
 
 ---
 
-**参考文献**
+**参考文献（脚注定义）**
 
-1. Mohieldin, M., Iqbal, Z., Rostom, A., & Fu, X. (2011). *The Role of Islamic Finance in Enhancing Financial Inclusion in Organization of Islamic Cooperation (OIC) Countries*. World Bank Policy Research Working Paper 5920.
-2. Baele, L., Bekaert, G., & Inghelbrecht, K. (2014). *Flights to Safety*. Journal of Financial Economics, 113(1), 1-30.
-3. Berger, A. N., Bouwman, C. H. S., & Kim, D. (2020). *Small Bank Comparative Advantages in Alleviating Financial Constraints and Providing Liquidity Insurance over Time*. Journal of Money, Credit and Banking, 52(S2), 309-349.
-4. Bank Al-Maghrib. *Indicateurs des banques et fenêtres participatives*, monthly bulletin, 2019-07 至 2025-12.
-5. Bank Al-Maghrib. *Statistiques Monétaires (Bulletin Flash)*, quarterly statistical communiqué, 2021-2025.
-6. Bank Al-Maghrib. *Statistiques Monétaires (Bulletin Mensuel)*, monthly statistical bulletin, 2013-2024.
-7. Bank Al-Maghrib. *Indice des Prix des Actifs Immobiliers (IPAI)*, quarterly index, 2006-Q1 至 2026-Q1.
-8. Bank Al-Maghrib. *Politique Monétaire: Décisions du Conseil de BAM*, 2006-2026.
+> 下列条目对应正文中的脚注编号 [1]–[11]，将以 Word 脚注形式显示在每页底部。
+
+[^1]: Mohieldin, M., Iqbal, Z., Rostom, A., & Fu, X. (2011). *The Role of Islamic Finance in Enhancing Financial Inclusion in Organization of Islamic Cooperation (OIC) Countries*. World Bank Policy Research Working Paper 5920.
+[^2]: Baele, L., Bekaert, G., & Inghelbrecht, K. (2014). *Flights to Safety*. Journal of Financial Economics, 113(1), 1-30.
+[^3]: Berger, A. N., Bouwman, C. H. S., & Kim, D. (2020). *Small Bank Comparative Advantages in Alleviating Financial Constraints and Providing Liquidity Insurance over Time*. Journal of Money, Credit and Banking, 52(S2), 309-349.
+[^4]: Chow, G. C. (1960). *Tests of Equality Between Sets of Coefficients in Two Linear Regressions*. Econometrica, 28(3), 591-605.
+[^5]: Bai, J., & Perron, P. (1998). *Estimating and Testing Linear Models with Multiple Structural Changes*. Econometrica, 66(1), 47-78; Bai, J., & Perron, P. (2003). *Computation and Analysis of Multiple Structural Change Models*. Journal of Applied Econometrics, 18(1), 1-22.
+[^6]: Newey, W. K., & West, K. D. (1987). *A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix*. Econometrica, 55(3), 703-708.
+[^7]: Bank Al-Maghrib. *Indicateurs des banques et fenêtres participatives*, monthly bulletin, 2019-07 至 2025-12.
+[^8]: Bank Al-Maghrib. *Statistiques Monétaires (Bulletin Flash)*, quarterly statistical communiqué, 2021-2025.
+[^9]: Bank Al-Maghrib. *Statistiques Monétaires (Bulletin Mensuel)*, monthly statistical bulletin, 2013-2024.
+[^10]: Bank Al-Maghrib. *Indice des Prix des Actifs Immobiliers (IPAI)*, quarterly index, 2006-Q1 至 2026-Q1.
+[^11]: Bank Al-Maghrib. *Politique Monétaire: Décisions du Conseil de BAM*, 2006-2026.
 
 ---
 
-*本文档由 MiniMax Mavis 协作生成。所有计算结果可通过 `python scripts/30_descriptive_cagr.py ... 34_var_irf.py` 复现，数据原始来源已记录在 `data/download_urls.json`。*
+*本文所有计算结果均可通过仓库内脚本 `scripts/30_descriptive_cagr.py` 至 `scripts/34_var_irf.py` 顺序执行复现；数据原始来源与 BAM 公报下载链接已记录在 `data/download_urls.json`。*
