@@ -21,10 +21,10 @@ window.financeKnowledge = {
     ],
     hero: {
       eyebrow: {
-        en: "English / French annotated mode",
-        fr: "Mode annoté anglais / français",
-        ar: "وضع الشرح العربي / الصيني",
-        zh: "阿语 / 中文注释模式"
+        en: "Quadrilingual annotated mode",
+        fr: "Mode annoté quadrilingue",
+        ar: "وضع الشرح رباعي اللغة",
+        zh: "四语注释模式"
       },
       title: {
         en: "Annotated Dossier on Moroccan Finance",
@@ -33,10 +33,10 @@ window.financeKnowledge = {
         zh: "摩洛哥金融注释档案"
       },
       copy: {
-        en: "A bilingual annotation layer for reading sources on Moroccan banking, supervision, climate risk, participatory finance, fintech, and the French, American, and Chinese financing channels.",
-        fr: "Une couche d'annotation bilingue pour lire les sources sur la banque marocaine, la supervision, les risques climatiques, la finance participative, la fintech et les canaux de financement français, américains et chinois.",
-        ar: "طبقة شرح ثنائية اللغة لقراءة المصادر حول البنوك المغربية والرقابة والمخاطر المناخية والتمويل التشاركي والتكنولوجيا المالية وقنوات التمويل الفرنسية والأمريكية والصينية.",
-        zh: "一个双语注释层，用来阅读摩洛哥银行业、监管、气候风险、参与式金融、金融科技，以及法国、美国、中国融资通道相关资料。"
+        en: "A quadrilingual annotation layer for reading sources on Moroccan banking, supervision, climate risk, participatory finance, fintech, and the French, American, and Chinese financing channels.",
+        fr: "Une couche d'annotation quadrilingue pour lire les sources sur la banque marocaine, la supervision, les risques climatiques, la finance participative, la fintech et les canaux de financement français, américains et chinois.",
+        ar: "طبقة شرح رباعية اللغة لقراءة المصادر حول البنوك المغربية والرقابة والمخاطر المناخية والتمويل التشاركي والتكنولوجيا المالية وقنوات التمويل الفرنسية والأمريكية والصينية.",
+        zh: "一个四语注释层，用来阅读摩洛哥银行业、监管、气候风险、参与式金融、金融科技，以及法国、美国、中国融资通道相关资料。"
       },
       primary: { en: "Read annotations", fr: "Lire les annotations", ar: "قراءة الشروح", zh: "阅读注释" },
       secondary: { en: "Maintain dossier", fr: "Maintenir le dossier", ar: "صيانة الملف", zh: "维护档案" }
@@ -52,12 +52,12 @@ window.financeKnowledge = {
         }
       },
       concepts: {
-        title: { en: "Bilingual Glossary", fr: "Glossaire bilingue", ar: "مسرد ثنائي اللغة", zh: "双语术语注释" },
+        title: { en: "Quadrilingual Glossary", fr: "Glossaire quadrilingue", ar: "مسرد رباعي اللغة", zh: "四语术语注释" },
         lead: {
-          en: "The page shows two languages at a time. The default mode is English/French; switch to Arabic/Chinese when you want a reading bridge for regional context and Chinese notes.",
-          fr: "La page affiche deux langues à la fois. Le mode par défaut est anglais/français ; basculez vers arabe/chinois pour relier le contexte régional aux notes chinoises.",
-          ar: "تعرض الصفحة لغتين في كل مرة. الوضع الافتراضي هو الإنجليزية/الفرنسية؛ ويمكن التبديل إلى العربية/الصينية للربط بين السياق الإقليمي والملاحظات الصينية.",
-          zh: "页面一次显示两种语言。默认是英法双语；需要区域语境和中文理解时，可以切换到阿汉双语。"
+          en: "The page shows two languages at a time, but the full dossier is quadrilingual: English, French, Arabic, and Chinese. The default mode is English/French; switch to Arabic/Chinese when you want a reading bridge for regional context and Chinese notes.",
+          fr: "La page affiche deux langues à la fois, mais le dossier lui-même est quadrilingue : anglais, français, arabe et chinois. Le mode par défaut est anglais/français ; passez à arabe/chinois pour relier le contexte régional aux notes chinoises.",
+          ar: "تعرض الصفحة لغتين في كل مرة، لكن الملف نفسه رباعي اللغة: الإنجليزية والفرنسية والعربية والصينية. الوضع الافتراضي هو الإنجليزية/الفرنسية؛ ويمكن التبديل إلى العربية/الصينية للربط بين السياق الإقليمي والملاحظات الصينية.",
+          zh: "页面一次显示两种语言，但整套档案共四语：英语、法语、阿拉伯语和中文。默认英法对照；需要区域语境和中文理解时，可切换到阿中对照。"
         }
       },
       primers: {
@@ -147,7 +147,7 @@ window.financeKnowledge = {
       en: "Annotated dossier for the IA_Finance_MA reference library. Data lives in data/finance-knowledge.js; hero image lives in assets/finance-learning-hero.png.",
       fr: "Dossier annoté pour la bibliothèque IA_Finance_MA. Les données sont dans data/finance-knowledge.js ; l'image d'en-tête est dans assets/finance-learning-hero.png.",
       ar: "ملف مشروح لمكتبة IA_Finance_MA. توجد البيانات في data/finance-knowledge.js، وتوجد صورة الواجهة في assets/finance-learning-hero.png.",
-      zh: "IA_Finance_MA 参考资料库的注释档案。数据位于 data/finance-knowledge.js；横幅图位于 assets/finance-learning-hero.png。"
+      zh: "IA_Finance_MA 参考资料库的注释档案。数据存放在 data/finance-knowledge.js；横幅图位于 assets/finance-learning-hero.png。"
     }
   },
 
@@ -191,7 +191,7 @@ window.financeKnowledge = {
         en: "External influence takes different financial forms",
         fr: "Les influences extérieures prennent des formes financières distinctes",
         ar: "التأثير الخارجي له أشكال مالية مختلفة",
-        zh: "外部影响有不同金融形态"
+        zh: "外部影响呈现不同金融形式"
       },
       body: {
         en: "France appears through banking history and regulatory legacies; the United States through development finance; China through infrastructure, energy, minerals, and value chains.",
@@ -224,7 +224,7 @@ window.financeKnowledge = {
         en: "1. Why start with banks?",
         fr: "1. Pourquoi commencer par les banques ?",
         ar: "1. لماذا نبدأ بالبنوك؟",
-        zh: "1. 为什么总是从银行讲起？"
+        zh: "1. 为什么从银行讲起？"
       },
       body: {
         en: "The World Bank/BAM report focuses on banks because credit institutions dominate financial-sector assets. Morocco has 19 banks, including domestic private banks, public banks, and majority foreign-owned banks. This means that financing is often first read as bank credit.",
@@ -280,7 +280,7 @@ window.financeKnowledge = {
         en: "5. Climate reports study transmission into banks",
         fr: "5. Les rapports climatiques analysent la transmission vers les banques",
         ar: "5. تقارير المناخ تدرس انتقال الأثر إلى البنوك",
-        zh: "5. 气候风险报告关注冲击如何传导到银行"
+        zh: "5. 气候报告研究气候影响向银行的传导"
       },
       body: {
         en: "Droughts affect agriculture, food processing, tourism, and water-intensive sectors. Floods damage assets and infrastructure. Low-carbon transition affects high-emission sectors or sectors exposed to the EU CBAM. Bank risk depends on sectoral and regional loan exposure.",
@@ -294,7 +294,7 @@ window.financeKnowledge = {
         en: "6. Fintech changes access and distribution",
         fr: "6. La fintech change l'accès et la distribution",
         ar: "6. التكنولوجيا المالية تغير الوصول والتوزيع",
-        zh: "6. 金融科技改变入口和分发方式"
+        zh: "6. 金融科技改变金融的接入与分发"
       },
       body: {
         en: "Embedded finance, open banking, and BaaS are not just better apps. They mean that payment, credit, and insurance can be placed inside e-commerce, logistics, and enterprise software workflows.",
@@ -417,13 +417,13 @@ window.financeKnowledge = {
     { id: "Prudential supervision", category: "risk", terms: { en: "Prudential supervision", fr: "Supervision prudentielle", ar: "الرقابة الاحترازية", zh: "审慎监管" }, notes: { en: { plain: "Regulatory oversight designed to preserve bank soundness and financial stability.", use: "Bank Al-Maghrib is central for climate-risk guidance, stress testing, and disclosure." }, fr: { plain: "Surveillance réglementaire visant à préserver la solidité des banques et la stabilité financière.", use: "Bank Al-Maghrib est central pour les risques climatiques, les tests de résistance et la divulgation." }, ar: { plain: "رقابة تنظيمية تهدف إلى الحفاظ على متانة البنوك والاستقرار المالي.", use: "يلعب بنك المغرب دورا مركزيا في توجيه مخاطر المناخ واختبارات الضغط والإفصاح." }, zh: { plain: "监管机构为维护银行稳健和金融稳定而进行的监督。", use: "摩洛哥央行在气候风险指引、压力测试和披露方面扮演核心角色。" } } },
     { id: "Green taxonomy", category: "risk", terms: { en: "Green taxonomy", fr: "Taxonomie verte", ar: "التصنيف الأخضر", zh: "绿色分类法" }, notes: { en: { plain: "A classification system defining which activities count as green or sustainable.", use: "It limits greenwashing in finance and reporting." }, fr: { plain: "Système de classification définissant quelles activités sont vertes ou durables.", use: "Elle limite le greenwashing dans le financement et le reporting." }, ar: { plain: "نظام تصنيف يحدد الأنشطة التي تعد خضراء أو مستدامة.", use: "يحد من غسل السمعة الخضراء في التمويل والتقارير." }, zh: { plain: "界定哪些经济活动可被视为绿色或可持续的分类体系。", use: "用于减少金融和披露中的“漂绿”。" } } },
     { id: "Climate disclosure", category: "risk", terms: { en: "Climate disclosure", fr: "Publication d'informations climatiques", ar: "الإفصاح المناخي", zh: "气候信息披露" }, notes: { en: { plain: "Publication of climate risks, emissions, and management practices by firms or banks.", use: "Without disclosure, banks struggle to assess client transition and physical risks." }, fr: { plain: "Publication par entreprises ou banques des risques climatiques, émissions et dispositifs de gestion.", use: "Sans divulgation, les banques évaluent mal les risques physiques et de transition des clients." }, ar: { plain: "نشر الشركات أو البنوك لمخاطر المناخ والانبعاثات وإجراءات الإدارة.", use: "بدون الإفصاح يصعب على البنوك تقييم مخاطر الانتقال والمخاطر المادية لدى العملاء." }, zh: { plain: "企业或银行公开气候风险、排放和管理措施。", use: "没有披露，银行很难评估客户的转型风险和物理风险。" } } },
-    { id: "Participatory finance", category: "new-finance", terms: { en: "Participatory finance", fr: "Finance participative", ar: "التمويل التشاركي", zh: "参与式金融" }, notes: { en: { plain: "Moroccan term for banking and finance products aligned with Islamic-finance principles.", use: "The question is whether it widens inclusion or remains a product line inside conventional banks." }, fr: { plain: "Terme marocain pour les banques et produits conformes aux principes de la finance islamique.", use: "La question est de savoir si elle élargit l'inclusion ou reste une ligne de produits bancaire." }, ar: { plain: "مصطلح مغربي للمنتجات والبنوك المتوافقة مع مبادئ المالية الإسلامية.", use: "السؤال هو هل يوسع الشمول المالي أم يبقى خط منتجات داخل البنوك التقليدية." }, zh: { plain: "摩洛哥语境中指符合伊斯兰金融原则的银行和金融产品。", use: "关键是它是否扩大金融包容性，还是只是传统银行内的一条产品线。" } } },
-    { id: "Murabaha", category: "new-finance", terms: { en: "Murabaha", fr: "Mourabaha", ar: "مرابحة", zh: "成本加成销售融资" }, notes: { en: { plain: "A transaction where the bank buys an asset and resells it to the client with a known margin.", use: "Common in participatory finance for housing, equipment, or consumer finance." }, fr: { plain: "Opération où la banque achète un actif puis le revend au client avec une marge connue.", use: "Produit fréquent pour logement, équipement ou consommation en finance participative." }, ar: { plain: "عملية يشتري فيها البنك أصلا ثم يبيعه للعميل بهامش ربح معلوم.", use: "منتج شائع في التمويل التشاركي للسكن أو التجهيز أو الاستهلاك." }, zh: { plain: "银行先购买资产，再按已知利润加价卖给客户。", use: "参与式金融中常用于住房、设备或消费融资。" } } },
-    { id: "Sukuk", category: "new-finance", terms: { en: "Sukuk", fr: "Sukuk", ar: "صكوك", zh: "伊斯兰债券" }, notes: { en: { plain: "Islamic financial certificates backed by assets or income rights, often compared to bonds.", use: "Can help governments or firms raise long-term participatory finance." }, fr: { plain: "Titres financiers islamiques adossés à des actifs ou revenus, souvent comparés à des obligations.", use: "Peuvent aider États ou entreprises à lever des financements longs." }, ar: { plain: "أوراق مالية إسلامية مدعومة بأصول أو حقوق دخل، وغالبا ما تقارن بالسندات.", use: "قد تساعد الحكومات أو الشركات على جمع تمويل طويل الأمد." }, zh: { plain: "以资产或收益权为支撑的伊斯兰金融证券，常与债券比较。", use: "可帮助政府或企业在参与式框架下筹集长期资金。" } } },
+    { id: "Participatory finance", category: "new-finance", terms: { en: "Participatory finance", fr: "Finance participative", ar: "التمويل التشاركي", zh: "参与式金融" }, notes: { en: { plain: "Moroccan term for banking and finance products aligned with Islamic-finance principles.", use: "The question is whether it widens inclusion or remains a product line inside conventional banks." }, fr: { plain: "Terme marocain pour les banques et produits conformes aux principes de la finance islamique.", use: "La question est de savoir si elle élargit l'inclusion ou reste une ligne de produits bancaires." }, ar: { plain: "مصطلح مغربي للمنتجات والبنوك المتوافقة مع مبادئ المالية الإسلامية.", use: "السؤال هو هل يوسع الشمول المالي أم يبقى خط منتجات داخل البنوك التقليدية." }, zh: { plain: "摩洛哥语境中指符合伊斯兰金融原则的银行和金融产品。", use: "关键是它是否扩大金融包容性，还是只是传统银行内的一条产品线。" } } },
+    { id: "Murabaha", category: "new-finance", terms: { en: "Murabaha", fr: "Mourabaha", ar: "مرابحة", zh: "加价销售融资" }, notes: { en: { plain: "A transaction where the bank buys an asset and resells it to the client with a known margin.", use: "Common in participatory finance for housing, equipment, or consumer finance." }, fr: { plain: "Opération où la banque achète un actif puis le revend au client avec une marge connue.", use: "Produit fréquent pour logement, équipement ou consommation en finance participative." }, ar: { plain: "عملية يشتري فيها البنك أصلا ثم يبيعه للعميل بهامش ربح معلوم.", use: "منتج شائع في التمويل التشاركي للسكن أو التجهيز أو الاستهلاك." }, zh: { plain: "银行先购入资产，再按事先约定的利润加成转售给客户。", use: "参与式金融中常用于住房、设备或消费融资。" } } },
+    { id: "Sukuk", category: "new-finance", terms: { en: "Sukuk", fr: "Sukuk", ar: "صكوك", zh: "苏库克" }, notes: { en: { plain: "Islamic financial certificates backed by assets or income rights, often compared to bonds.", use: "Can help governments or firms raise long-term participatory finance." }, fr: { plain: "Titres financiers islamiques adossés à des actifs ou revenus, souvent comparés à des obligations.", use: "Peuvent aider États ou entreprises à lever des financements longs." }, ar: { plain: "أوراق مالية إسلامية مدعومة بأصول أو حقوق دخل، وغالبا ما تقارن بالسندات.", use: "قد تساعد الحكومات أو الشركات على جمع تمويل طويل الأمد." }, zh: { plain: "以资产或未来收益权为支撑的伊斯兰金融证券，常被拿来与债券类比。", use: "可帮助政府或企业在参与式框架下筹集长期资金。" } } },
     { id: "Financial inclusion", category: "new-finance", terms: { en: "Financial inclusion", fr: "Inclusion financière", ar: "الشمول المالي", zh: "金融包容性" }, notes: { en: { plain: "Affordable access to formal financial services for individuals, small firms, and vulnerable groups.", use: "Often a policy goal in participatory finance, fintech, and SME financing." }, fr: { plain: "Accès abordable aux services financiers formels pour particuliers, petites entreprises et groupes vulnérables.", use: "Objectif fréquent dans finance participative, fintech et financement des PME." }, ar: { plain: "وصول ميسر إلى الخدمات المالية الرسمية للأفراد والمقاولات الصغيرة والفئات الهشة.", use: "هدف سياسي متكرر في التمويل التشاركي والتكنولوجيا المالية وتمويل المقاولات الصغرى والمتوسطة." }, zh: { plain: "让个人、小企业和弱势群体能负担并使用正规金融服务。", use: "参与式金融、金融科技和中小企业融资中常见的政策目标。" } } },
     { id: "Embedded finance", category: "new-finance", terms: { en: "Embedded finance", fr: "Finance embarquée", ar: "التمويل المدمج", zh: "嵌入式金融" }, notes: { en: { plain: "Payment, credit, or insurance services embedded inside non-financial platforms or user journeys.", use: "Asks whether the bank becomes a platform feature or keeps client access." }, fr: { plain: "Services de paiement, crédit ou assurance intégrés dans des plateformes ou parcours non financiers.", use: "Demande si la banque devient une fonctionnalité de plateforme ou conserve l'accès client." }, ar: { plain: "خدمات دفع أو ائتمان أو تأمين مدمجة داخل منصات أو مسارات غير مالية.", use: "تطرح سؤالا: هل يصبح البنك وظيفة داخل منصة أم يحتفظ بالوصول إلى العميل؟" }, zh: { plain: "把支付、信贷或保险嵌入非金融平台或业务场景。", use: "关注银行会变成平台功能，还是继续控制客户入口。" } } },
     { id: "Open banking", category: "new-finance", terms: { en: "Open banking", fr: "Open banking", ar: "الخدمات المصرفية المفتوحة", zh: "开放银行" }, notes: { en: { plain: "A framework where authorized third parties access bank data or services through secure interfaces.", use: "Can change credit scoring, payments, and product distribution." }, fr: { plain: "Cadre où des tiers autorisés accèdent aux données ou services bancaires via interfaces sécurisées.", use: "Peut modifier l'évaluation du crédit, les paiements et la distribution." }, ar: { plain: "إطار يسمح لأطراف مرخصة بالوصول إلى بيانات أو خدمات بنكية عبر واجهات آمنة.", use: "قد يغير تقييم الائتمان والمدفوعات وتوزيع المنتجات." }, zh: { plain: "在授权和监管下，让第三方通过安全接口使用银行数据或服务。", use: "可能改变信贷评估、支付服务和金融产品分发。" } } },
-    { id: "Banking as a Service", category: "new-finance", terms: { en: "Banking as a Service (BaaS)", fr: "Banque en tant que service", ar: "الخدمات البنكية كخدمة", zh: "银行即服务" }, notes: { en: { plain: "Bank accounts, payments, compliance, or credit capabilities exposed to other platforms through APIs.", use: "Explains why non-bank platforms can become finance entry points." }, fr: { plain: "Comptes, paiements, conformité ou crédit fournis par une banque à d'autres plateformes via API.", use: "Explique pourquoi des plateformes non bancaires deviennent des points d'entrée financiers." }, ar: { plain: "حسابات ومدفوعات وامتثال أو قدرات ائتمان يقدمها البنك لمنصات أخرى عبر واجهات برمجة.", use: "يفسر كيف تصبح منصات غير بنكية مداخل إلى التمويل." }, zh: { plain: "银行通过接口向其他平台提供账户、支付、合规或信贷能力。", use: "解释为什么非银行平台也可能成为金融入口。" } } },
+    { id: "Banking as a Service", category: "new-finance", terms: { en: "Banking as a Service (BaaS)", fr: "Banque en tant que service", ar: "الخدمات البنكية كخدمة", zh: "银行业务即服务" }, notes: { en: { plain: "Bank accounts, payments, compliance, or credit capabilities exposed to other platforms through APIs.", use: "Explains why non-bank platforms can become finance entry points." }, fr: { plain: "Comptes, paiements, conformité ou crédit fournis par une banque à d'autres plateformes via API.", use: "Explique pourquoi des plateformes non bancaires deviennent des points d'entrée financiers." }, ar: { plain: "حسابات ومدفوعات وامتثال أو قدرات ائتمان يقدمها البنك لمنصات أخرى عبر واجهات برمجة.", use: "يفسر كيف تصبح منصات غير بنكية مداخل إلى التمويل." }, zh: { plain: "银行通过接口向其他平台提供账户、支付、合规或信贷能力。", use: "解释为什么非银行平台也可能成为金融入口。" } } },
     { id: "Development finance", category: "capital", terms: { en: "Development finance", fr: "Finance de développement", ar: "تمويل التنمية", zh: "发展金融" }, notes: { en: { plain: "Public or multilateral finance using loans, guarantees, or equity to support development goals.", use: "U.S. DFC influence in Morocco is closer to this than to commercial banking networks." }, fr: { plain: "Financement public ou multilatéral par prêts, garanties ou participations pour soutenir le développement.", use: "L'influence de la DFC au Maroc relève davantage de ce canal que de banques commerciales." }, ar: { plain: "تمويل عام أو متعدد الأطراف يستخدم القروض أو الضمانات أو المساهمات لدعم أهداف التنمية.", use: "تأثير DFC الأمريكية في المغرب أقرب إلى هذا المسار من شبكات البنوك التجارية." }, zh: { plain: "政府或多边机构用贷款、担保或股权支持发展目标的金融活动。", use: "美国 DFC 在摩洛哥的影响更接近发展金融，而非商业银行网络。" } } },
     { id: "Foreign direct investment", category: "capital", terms: { en: "Foreign direct investment (FDI)", fr: "Investissement direct étranger", ar: "الاستثمار الأجنبي المباشر", zh: "外国直接投资" }, notes: { en: { plain: "Long-term foreign investment in a company, factory, project, or equity stake.", use: "Must be distinguished from loans, guarantees, trade finance, and portfolio flows." }, fr: { plain: "Investissement étranger durable dans une entreprise, usine, projet ou participation au capital.", use: "À distinguer des prêts, garanties, financements du commerce et flux de portefeuille." }, ar: { plain: "استثمار أجنبي طويل الأجل في شركة أو مصنع أو مشروع أو حصة رأسمالية.", use: "يجب تمييزه عن القروض والضمانات وتمويل التجارة وتدفقات المحافظ." }, zh: { plain: "外国投资者在企业、工厂、项目或股权中进行的长期投资。", use: "需要与贷款、担保、贸易融资和证券投资区分开。" } } },
     { id: "Capital flows", category: "capital", terms: { en: "Capital flows", fr: "Flux de capitaux", ar: "تدفقات رأس المال", zh: "资本流动" }, notes: { en: { plain: "Movements of funds between countries, markets, and institutions.", use: "A common frame for comparing Chinese capital, U.S. development finance, and European banking shifts." }, fr: { plain: "Mouvements de fonds entre pays, marchés et institutions.", use: "Cadre commun pour comparer capitaux chinois, finance américaine de développement et banques européennes." }, ar: { plain: "حركات الأموال بين الدول والأسواق والمؤسسات.", use: "إطار مشترك لمقارنة رأس المال الصيني وتمويل التنمية الأمريكي وتحولات البنوك الأوروبية." }, zh: { plain: "资金在国家、市场和机构之间的流入流出。", use: "可用于比较中国资本、美国发展金融和欧洲银行变化。" } } },
